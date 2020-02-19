@@ -1,4 +1,5 @@
-
-
 [context.deploy-preview]
   command = "yarn build && cp _site/_headers build"
+
+[context.staging]
+  NODE_ENV = "staging"
